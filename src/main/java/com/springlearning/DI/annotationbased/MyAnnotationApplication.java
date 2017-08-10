@@ -1,6 +1,6 @@
-package com.springlearning.annotationbased;
+package com.springlearning.DI.annotationbased;
 
-import com.springlearning.services.MessageService;
+import com.springlearning.DI.services.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

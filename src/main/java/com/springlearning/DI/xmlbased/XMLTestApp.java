@@ -1,4 +1,4 @@
-package com.springlearning.xmlbased;
+package com.springlearning.DI.xmlbased;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;

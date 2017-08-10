@@ -1,4 +1,4 @@
-package com.springlearning.annotationbased;
+package com.springlearning.DI.annotationbased;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;

@@ -1,6 +1,4 @@
-package com.springlearning.services;
-
-import org.springframework.stereotype.Component;
+package com.springlearning.DI.services;
 
 /**
  * Created by krishna1bhat on 8/9/17.

@@ -1,6 +1,6 @@
-package com.springlearning.xmlbased;
+package com.springlearning.DI.xmlbased;
 
-import com.springlearning.services.MessageService;
+import com.springlearning.DI.services.MessageService;
 
 /**
  * Created by krishna1bhat on 8/9/17.

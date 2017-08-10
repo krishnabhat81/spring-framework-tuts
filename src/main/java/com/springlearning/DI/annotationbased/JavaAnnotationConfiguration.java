@@ -1,7 +1,7 @@
-package com.springlearning.annotationbased;
+package com.springlearning.DI.annotationbased;
 
-import com.springlearning.services.EmailService;
-import com.springlearning.services.MessageService;
+import com.springlearning.DI.services.EmailService;
+import com.springlearning.DI.services.MessageService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
