@@ -1,5 +1,6 @@
 package com.springlearning.AOP;
 
+import com.springlearning.AOP.domain.Employee;
 import com.springlearning.AOP.service.EmployeeService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -17,7 +18,10 @@ public class MainApp {
 
         employeeService.getEmployee().setName("Krishna");
 
-        employeeService.getEmployee().throwException();
+        Employee emp = context.getBean(Employee.class);
+        emp.customAnnotaionCheck();
+
+//        employeeService.getEmployee().throwException();
 
         context.close();
     }
